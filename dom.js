@@ -1,3 +1,4 @@
+
 var document = [
   {
     tagName: "div",
@@ -41,3 +42,13 @@ var document = [
     ]
   }
 ]
+
+/*var childrenArray =[];
+document.forEach(function getChildren(element, index){
+  childrenArray.push(element["children"]) ;
+})*/
+
+var childrenArray =[];
+childrenArray = document[0].children[0].children
+
+console.log(childrenArray);
