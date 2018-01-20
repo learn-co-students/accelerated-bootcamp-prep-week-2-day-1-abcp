@@ -32,6 +32,14 @@ var names = ["Sophie", "Zoe", "Victoria"]
 // pass the named function into the calling function as a callback
 names.forEach(sayHi)
 
+for (i = 0; i< names.length; i++) {
+  sayHi(names[i]);
+}
+
+//as a forEach:
+
+names.forEach(sayHi)
+
 // call the callback function with an anonymous function as a callback
 names.forEach(function(name) {
   console.log(`Hi, ${name}`)

@@ -1,4 +1,8 @@
-var document = [
+//How would you access the array that is the value of the 'children' key of the first element in the 'document1' array?
+
+document1[0].children
+
+var document1 = [
   {
     tagName: "div",
     children: [
