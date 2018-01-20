@@ -1,3 +1,4 @@
+mydocument[0]
 var document = [
   {
     tagName: "div",
@@ -41,3 +42,4 @@ var document = [
     ]
   }
 ]
+myDocument[0].children[0]
