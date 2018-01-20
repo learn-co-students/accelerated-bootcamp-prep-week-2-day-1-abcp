@@ -1,3 +1,6 @@
+
+// how to access array that is value of "children" key of 1st element of "document" 
+
 var document = [
   {
     tagName: "div",
@@ -41,3 +44,6 @@ var document = [
     ]
   }
 ]
+
+
+document[0].children[0].children

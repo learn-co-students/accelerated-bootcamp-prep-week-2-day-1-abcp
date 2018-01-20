@@ -9,3 +9,14 @@
     <li>11</li>
   </ul>
 </main>
+
+//javascript
+
+
+//array of list items (4)
+var listItems = document.getElementById("app").querySelectorAll("ul.ranked-list li")
+
+//loop over items
+for(let i=0; i < listItems.length; i++) {
+  listItems[i].innerHTML = i
+}
