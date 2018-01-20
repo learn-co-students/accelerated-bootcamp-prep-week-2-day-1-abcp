@@ -1,4 +1,6 @@
-var document = [
+myDocument[0].children[0].children
+
+var myDocument = [
   {
     tagName: "div",
     children: [
