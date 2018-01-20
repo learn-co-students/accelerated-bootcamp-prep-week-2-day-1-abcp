@@ -37,4 +37,7 @@ names.forEach(function(name) {
   console.log(`Hi, ${name}`)
 })
 
+/*A functions that takes another function as its argument*/
 
+/*the forEach takes in a function whether anonymous
+or a var that gets a value of a function*/

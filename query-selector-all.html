@@ -9,3 +9,19 @@
     <li>11</li>
   </ul>
 </main>
+
+<!-- querySelectorAll()
+it accepts a selector as an argument and
+returns a node list of all the matching elements in the DOM
+document.getElementById('app').querySelectorAll('ul.ranked-list') will get
+everything from the ul that has class of "ranked-list"
+-->
+
+<!--
+To increment the numbers inside the li, we use a for loop
+after get a node list of all the li
+var list1 = document.getElementById('app').querySelectorAll('ul.ranked-list li')
+for(var i = 0; i < list1.length; i++){
+  list1[i].innerHTML = (i + 1).toString()
+}
+-->
