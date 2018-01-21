@@ -37,4 +37,4 @@ names.forEach(function(name) {
   console.log(`Hi, ${name}`)
 })
 
-
+names.forEach(sayHi);
