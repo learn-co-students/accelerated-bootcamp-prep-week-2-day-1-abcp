@@ -1,3 +1,9 @@
+//How would you access the array that is the value of the 'children' key of the FIRST element in the 'document' array.
+var ul = document[0].children
+ul[0].children
+
+document[0].children[0].children
+
 var document = [
   {
     tagName: "div",

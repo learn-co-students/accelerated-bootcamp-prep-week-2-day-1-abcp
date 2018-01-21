@@ -37,4 +37,8 @@ names.forEach(function(name) {
   console.log(`Hi, ${name}`)
 })
 
-
+//before refactoring
+for(i=0;i<names.length;i++){
+  sayHi(names[i])
+}
+}
