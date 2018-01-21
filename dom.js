@@ -1,3 +1,5 @@
+// document[0].children[0].children['tagName']
+
 var document = [
   {
     tagName: "div",
@@ -41,3 +43,5 @@ var document = [
     ]
   }
 ]
+
+console.log(document[0].children[0].children['tagName']);
