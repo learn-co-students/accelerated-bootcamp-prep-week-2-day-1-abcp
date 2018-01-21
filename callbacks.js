@@ -1,6 +1,6 @@
 // define the "calling function"
 function doStuffToNumberFive(callback) {
-  return callback(5)
+  return callback(5);
 }
 
 // define some callback functions
