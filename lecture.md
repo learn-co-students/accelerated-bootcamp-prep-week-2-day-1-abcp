@@ -1,6 +1,6 @@
 # Week 3, Day 1
 
-Today, we'll come to understand the DOM as a tree-like structure that we can operate on to add, remove to change elements. We'll practice selecting elements from a nested `document` object. We'll learn the concept of "callback functions" in JavaScript and leverage that understanding, together with the ceonepts of event listeners, to build interactive web pages with JavaScript.
+Today, we'll come to understand the DOM as a tree-like structure that we can operate on to add, remove to change elements. We'll practice selecting elements from a nested `document` object. We'll learn the concept of "callback functions" in JavaScript and leverage that understanding, together with the concepts of event listeners, to build interactive web pages with JavaScript.
 
 # The DOM is a Tree
 
