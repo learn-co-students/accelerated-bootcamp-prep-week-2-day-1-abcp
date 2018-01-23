@@ -6,7 +6,7 @@ var document = [
         tagName: "ul",
         children: [
           {tagName: "li", value: "list item 1"},
-          {tagName: "li", value: "list item 2"},
+          {tagName: "liu", value: "list item 2"},
           {tagName: "li", value: "list item 3"}
         ]
       }
