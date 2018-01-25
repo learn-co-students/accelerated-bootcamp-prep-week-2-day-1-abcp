@@ -1,3 +1,8 @@
+function getFirstSelector(selector) {
+  return document.querySelector(selector)
+}
+document[0][children]
+document[0].children
 var document = [
   {
     tagName: "div",
