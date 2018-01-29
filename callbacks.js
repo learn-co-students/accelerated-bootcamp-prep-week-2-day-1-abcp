@@ -27,7 +27,7 @@ var sayHi = function(name) {
   console.log(`Hi ${name}`)
 }
 
-var names = ["Sophie", "Zoe", "Victoria"]
+var names = ["Sophie", "Zoe", "Victoria", "Leah"]
 
 // pass the named function into the calling function as a callback
 names.forEach(sayHi)
