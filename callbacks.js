@@ -35,6 +35,7 @@ names.forEach(sayHi)
 // call the callback function with an anonymous function as a callback
 names.forEach(function(name) {
   console.log(`Hi, ${name}`)
+  
 })
 
 
