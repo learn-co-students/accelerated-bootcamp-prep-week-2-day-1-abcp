@@ -5,15 +5,15 @@ var document = [
       {
         tagName: "ul",
         children: [
-          {tagName: "li", value: "list item 1"},
-          {tagName: "li", value: "list item 2"},
-          {tagName: "li", value: "list item 3"}
+          {tagName: "li", value: "children 1"},
+          {tagName: "li", value: "children 2"},
+          {tagName: "li", value: "children 3"}
         ]
       }
     ]
   },
   {
-    tagName: "div",
+    tagName: " Array0",
     children: [
       {
         tagName: "form",
